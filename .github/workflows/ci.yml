@@ -2,6 +2,8 @@ name: 'Run App Post, Naomi'
 
 on: [push, pull_request]
 
+on: [push, pull_request]
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
